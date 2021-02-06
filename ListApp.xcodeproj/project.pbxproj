@@ -11,6 +11,8 @@
 		B931A12825CECC5500188355 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931A12725CECC5500188355 /* ContentView.swift */; };
 		B931A12A25CECC5700188355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B931A12925CECC5700188355 /* Assets.xcassets */; };
 		B931A12D25CECC5700188355 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B931A12C25CECC5700188355 /* Preview Assets.xcassets */; };
+		B931A13625CECCBA00188355 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931A13525CECCBA00188355 /* Game.swift */; };
+		B931A13925CED41700188355 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931A13825CED41700188355 /* GameStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		B931A12925CECC5700188355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B931A12C25CECC5700188355 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B931A12E25CECC5700188355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B931A13525CECCBA00188355 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B931A13825CED41700188355 /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				B931A12925CECC5700188355 /* Assets.xcassets */,
 				B931A12E25CECC5700188355 /* Info.plist */,
 				B931A12B25CECC5700188355 /* Preview Content */,
+				B931A13525CECCBA00188355 /* Game.swift */,
+				B931A13825CED41700188355 /* GameStore.swift */,
 			);
 			path = ListApp;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B931A12825CECC5500188355 /* ContentView.swift in Sources */,
+				B931A13925CED41700188355 /* GameStore.swift in Sources */,
+				B931A13625CECCBA00188355 /* Game.swift in Sources */,
 				B931A12625CECC5500188355 /* ListAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
